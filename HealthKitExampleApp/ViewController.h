@@ -6,10 +6,13 @@
 //  Copyright (c) 2015 Brent Dady. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+@import HealthKit;
 
 @interface ViewController : UIViewController
 
+@property (nonatomic) HKHealthStore *healthStore;
 
 @end
+
 
